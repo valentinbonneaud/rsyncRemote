@@ -30,6 +30,7 @@ The following parameters are available :
 * `USER_MAIL` : user of the mail server
 * `PORT_MAIL` : SSH port of the mail server (default is 22)
 * `EMAIL_MAIL` : email where the reports are sent
+* `SCREEN_NAME` : name of the screen where the script run
 
 Note: If you want to activate the mail reporting (a mail will be sent to you after each syncronasation), you must specify the parameters *_MAIL
 
