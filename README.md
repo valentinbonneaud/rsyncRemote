@@ -1,13 +1,13 @@
 # Introduction
 
-This script automatically download files from a remote server to a local folder/NAS.
+This script automatically downloads files from a remote server to a local folder/NAS.
 
 # Structure
 
-* rsyncData.sh : main script
-* launch.sh : script that check if the screen corresponding to the main script is running
-* kill.sh : force the stop of the screen corresponding to the main script
-* config.txt : configuration file
+* `rsyncData.sh` : main script
+* `launch.sh` : script that check if the screen corresponding to the main script is running
+* `kill.sh` : force the stop of the screen corresponding to the main script
+* `config.txt` : configuration file
 
 # Configuation file
 
@@ -37,14 +37,14 @@ Note 2: You need to allow authentication using public/private key on your remote
 
 # Cron configuration
 
-I want the script running only between 8am to 6pm. Here is my crontab configuration
+I want the script to run only between 8am to 6pm. Here is my crontab configuration
 
 ```
 * 8-18 * * * /path/to/script/launch.sh >/dev/null 2>&1
 5 18 * * * /path/to/script/kill.sh >/dev/null 2>&1
 ```
 
-The first line check that the screen corresponding to the script is running. If not, the screen is launched. This script will be executed between 8am to 6pm. The second line launch the script that kill the screen at 6:05pm in order to stop it and respect the schedule.
+The first line checks that the screen corresponding to the script is running. If not, the screen is launched. This script will be executed between 8am to 6pm. The second line launches the script that kill the screen at 6:05pm in order to stop it and respect the schedule.
 
 # Example of setup
 
