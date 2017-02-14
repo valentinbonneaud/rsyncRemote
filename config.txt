@@ -1,0 +1,14 @@
+DESTINATION=/home/user/NFS/data/autosynced/
+TEMP_FILE=/tmp/todo.tmp
+LOCK_FILE=/tmp/lock.tmp
+REMOTE_USER=user
+REMOTE_IP=seedbox
+REMOTE_PORT=22
+REMOTE_PATH_DATA=/home/user/finished/
+ACTIVATE_MAIL=1
+IP_MAIL=server_mail
+USER_MAIL=user
+PORT_MAIL=22
+EMAIL_MAIL=email@provider.com
+SCREEN_NAME=rsyncData
+PATH_TO_SCRIPT=/home/valentin/
