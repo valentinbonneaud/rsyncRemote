@@ -70,6 +70,7 @@ SCREEN_NAME=rsyncData
 PATH_TO_SCRIPT=/home/valentin/
 ```
 
+```
 Remote server (IP 1.1.1.1) <--- Internet ---> Raspberry Pi <--- Local network ---> NAS
 Mail server (IP 2.2.2.2)   <--- Internet --->
-
+```
